@@ -1,1 +1,3 @@
 # RandomizedGMRES
+
+We present the randomized flexible GMRES method with/without deflated restarting. In the construction of Krylov basis vectors, the randomized Gram-Schmidt (RGS) algorithm is employed based on *random sketching*. The RGS process leads the reduction of dimension to yeild decent stability as well as cheap computational costs. Consequently, we can develop the randomized FGMRES with some advantages in stability and computational complexity. Also, we develop the method of deflation in two ways; (i) computing harmonic Ritz eigenpairs and (ii) computing singular vectors. Both deflation in GMRES could improve the convergence of GMRES.
