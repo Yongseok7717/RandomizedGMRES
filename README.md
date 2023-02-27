@@ -7,4 +7,4 @@ Here, we provide some numerical experiments (written in 'matlab')to show the com
 2. Solving Euler equations with the randomized GRMES
 3. Solving RANS equations with the randomized FGMRES
 
-For more details of algorithms and the results, please see our paper (TBA). If you have any enquiry, please contact to **Yongseok Jang (yongseok.jang@onera.fr)**.
+For more details of algorithms and the results, please see our paper (TBA). If you have any enquiry, please contact **Yongseok Jang (yongseok.jang@onera.fr)**.
