@@ -76,9 +76,7 @@ while beta>tol*nb&&iter(it+1)<iterMax
         if it==1
         T2=eye(m,m);
         else
-%         T2=[W_n'*W_n,zeros(k,m-k);zeros(m-k,k),eye(m-k,m-k)];
-        T2=H'*[V(:,1:k+1)'*W(:,1:k+1),zeros(k+1,m-k-1);zeros(m-k-1,k+1),eye(m-k-1);...
-            zeros(1,m)];
+         T2=[W_n'*W_n,zeros(k,m-k);zeros(m-k,k),eye(m-k,m-k)];
         end
         [E,D]=eig(T1,T2);
         e=diag(D);
